@@ -1,10 +1,10 @@
 // // Get the current URL
 // const currentPage = window.location.pathname;
 
-// // Identify the placeholder for the welcome message
+
 // const welcomeMessageContainer = document.getElementById('welcomeMessage');
 
-// // Check if the page is the index page (adjust 'index.html' as needed)
+
 // if (currentPage.endsWith("/") || currentPage.endsWith("index.html")) {
 //     // Set the welcome message
 //     welcomeMessageContainer.innerHTML = `
@@ -14,7 +14,7 @@
 //         </div>
 //     `;
 // }
-// Add hover click animation or additional interactivity if needed
+
 document.querySelectorAll(".clickable-images img").forEach((img) => {
     img.addEventListener("click", () => {
         img.style.transition = "transform 0.3s";
