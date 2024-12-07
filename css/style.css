@@ -1,6 +1,8 @@
 /* Website Template by freewebsitetemplates.com */
 
-
+body {
+    white-space: normal;
+}
 .blurred-bg {
     background-image: url("images/LanternBg2.jpeg");
     filter: blur(8px);
@@ -65,11 +67,10 @@
     text-decoration: none;
 }
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCF.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 
@@ -105,18 +106,15 @@
 }
 
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
-	unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
-	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCF.woff2') format('woff2');
+    font-style: normal;
 }
 
 body {
@@ -124,7 +122,7 @@ body {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	line-height: 1;
 	margin: 0;
 	min-width: 960px;
@@ -177,7 +175,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: normal;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0;
 	padding: 0 0 3px;
 	text-decoration: none;
@@ -197,7 +195,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -226,7 +224,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0 0 30px;
 }
 #body > div .article h3 {
@@ -242,7 +240,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0 0 30px;
 	padding: 8px 27px 10px;
 }
@@ -291,7 +289,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -306,7 +304,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0;
 	padding: 8px 28px;
 	text-decoration: none;
@@ -347,7 +345,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0 0 18px;
 	padding: 23px 27px 20px;
 	text-transform: uppercase;
@@ -393,7 +391,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -427,7 +425,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	margin: 0 0 37px;
 	padding: 20px 10px;
 	text-align: center;
@@ -445,7 +443,7 @@ p a:hover {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+	src: url('fonts/MyCF.woff2') format('woff2');
 	display: inline-block;
 	padding: 20px 28px;
 	width: auto;
