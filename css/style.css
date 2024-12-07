@@ -1,5 +1,24 @@
 /* Website Template by freewebsitetemplates.com */
-
+#about-section {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+body {
+    text-rendering: optimizeLegibility;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+}
 body {
     white-space: normal;
 }
